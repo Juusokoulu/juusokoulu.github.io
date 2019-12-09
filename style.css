@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+   background-color: grey;
+}
+
+.logo {
+  float: right;
+  display: block;
+}
+
+#navigation-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.navigation-bar {
+  background-color: grey;
+  height: 70px;
+  width: 150%;
+  text-align:left;
+  display: block;
+  margin-top: 5px;
+}
+.navigation-bar img{
+  float:left;
+  border-radius: 8px;
+  padding: 0px;
+}
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+.navigation-bar li a {
+  color: black;
+  font-size: 25px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+
+#menu {
+  float: right;
+}
+
+li a:hover {
+    background-color: blue;
+    color: white;
+}	
+
+p {
+   	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	padding: 10px 10px 10px 10px;
+    font-size: 18px;
+    color: black;
+    font-style: italic;
+	background-color: grey;
+	border-radius: 10px;
+}
+
+h2 { 
+    margin: 30px 60px 30px 60px;
+    color: black;
+    font-style: normal;
+    text-align: center;
+	float: right;
+}
+
+img { 
+     display: block;
+	 float: right;
+	 padding-top: 10px;
+	 padding-right: 60px;
+}	 
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  display: inline-block;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding: 10px;
+  float: right;
+}
+
+.fa-twitter {  	
+  padding: 10px;
+  background: #55ACEE;
+  color: white;
+  float: right;
+}
+
+h4 {
+    width: 70%;
+	color: black;
+	font-size: 20px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+footer {
+     margin:auto;
+	 width: 962px;
+	 height: 55px;
+	 border-style: solid;
+	border-width: 1px;
+	border-color: black;
+} 
+
+ul.social_icons, li.social {
+    margin-top:-25px;
+	padding-left:15px;
+    padding-right:15px;
+    max-width:25%;
+    list-style: none;
+	float: right;
+    text-decoration:none;
+    display:inline-block;
+    position: relative;
+}
+
+h3 {
+	padding-top: 30px;
+}
+
+.paragraphs img{
+     display: block;
+	 float: right;
+	 padding-top: 10px;
+	 padding-right: 60px;
+	 margin-bottom: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+address {
+   	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	padding: 10px;
+    font-size: 18px;
+    color: black;
+    font-style: italic;
+	background-color: grey;
+}
